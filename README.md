@@ -32,3 +32,15 @@ Het binaire codeschema ziet er zo uit:
 
 [![N|Solid](http://image.prntscr.com/image/2d540c286a284667bb2505ded74b9547.png)](http://image.prntscr.com/image/2d540c286a284667bb2505ded74b9547.png)
 <5000112570601-19961209>
+
+## Documentatie
+barcodeGenerator.php
+GET
+parameters: barcode (numbers-numbers)
+
+## Toekomst
+Juist om meer informatie gedigitaliseerd te kunnen weergeven, zullen ook barcodes met alleen getallen en speciale tekens, zoals ik heb gegenereerd, te beperkt zijn. Daarom zal het een goed idee zijn om uiteindelijk over te stappen op QR codes, omdat deze veel meer informatie kunnen bevatten op een kleinere oppervlakte. Het nadeel daaraan is wel dat de barcode scanners in alle winkels vervangen moeten worden, omdat deze geen 2d barcodes ondersteunen.
+
+Het voorbeeld van het Fanta flesje in een QR code:
+[![N|Solid](http://barcodes4.me/barcode/qr/barcode.png?value=5000112570601-19961209)](http://barcodes4.me/barcode/qr/barcode.png?value=5000112570601-19961209)
+

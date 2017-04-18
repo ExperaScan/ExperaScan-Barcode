@@ -29,20 +29,25 @@
 <head>
 	<title></title>
 	<style type="text/css">
-		.barcode {
+		.barcodeContainter {
 			padding: 10px;
 			background-color: lightgrey;
+			text-align: center;
+		}
+
+		.barcode {
+			font-size: 0;
 		}
 
 		.barcodeChar {
-			height: 200px;
-			float: left;
+			height: 100px;
+			display: inline-block;
 		}
 
 		.barcodeCharPart {
-			height: 200px;
-			float: left;
-			width: 5px;
+			height: 100px;
+			display: inline-block;
+			width: 2px;
 		}
 
 		.black {
@@ -55,6 +60,7 @@
 	</style>
 </head>
 <body>
+	<div class="barcodeContainter">
 	<div class="barcode">
 	<?php
 		foreach ($barcode as $character) {
@@ -83,6 +89,7 @@
 				echo $char;
 			}
 		?>
+	</div>
 	</div>
 </body>
 </html>
