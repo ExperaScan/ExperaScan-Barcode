@@ -30,11 +30,13 @@ Het binaire codeschema ziet er zo uit:
 "<" => [1101]
 ">" => [1011]
 
+Om deze binaire codes om te zetten tot een streepjescode, betekent dat get getal 1 een zwart streepje is, en de 0 een wit streepje.
+
 [![N|Solid](http://image.prntscr.com/image/2d540c286a284667bb2505ded74b9547.png)](http://image.prntscr.com/image/2d540c286a284667bb2505ded74b9547.png)
 <5000112570601-19961209>
 
 ## Documentatie
-barcodeGenerator.php
+index.php
 GET
 parameters: barcode (numbers-numbers)
 
